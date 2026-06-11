@@ -4,7 +4,7 @@ import ResumeImg from '../assets/resume.jpg'
 const Resume = () => {
 
     const config = {
-        resumeLink: '/Vikneswari_M_Resume.pdf', 
+        resumeLink: process.env.REACT_APP_RESUME_LINK, 
         resumeFileName: 'Vikneswari_M_Resume.pdf' 
     }
 
