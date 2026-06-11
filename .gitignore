@@ -11,6 +11,9 @@
 # production
 /build
 
+# Resume — keep private
+public/Vikneswari_M_Resume.pdf
+
 # misc
 .DS_Store
 .env.local
