@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove max-width from body — this caused white gaps */
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #070819; 
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Create a centered container class to use inside sections */
+.container-fixed {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-primary {
+  background-color: #1B4F8A;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bg-secondary {
+  background-color: #070819;
+}
+
+.mobile-nav {
+  @apply fixed top-10 bg-gray-900 left-0 w-full h-1/4;
+}
+
+.mobile-nav li {
+  @apply w-full h-full text-center border-b-2;
+}
+
+.bg-accent {
+  color: #00FFFF;
+}
+
+.about-section {
+  background: linear-gradient(
+    135deg,
+    #1f3c88 0%,
+    #5b3f9b 100%
+  );
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+  @apply bg-primary text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-bg{
+  background-color:#0a0a1a;
 }
