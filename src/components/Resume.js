@@ -32,7 +32,7 @@ const Resume = () => {
                 download={config.resumeFileName}
                 className="flex items-center gap-2 bg-cyan-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-cyan-300 transition-all w-fit"
             >
-                ⬇ Download Resume
+                View Resume
             </a>
         </div>
     </section>

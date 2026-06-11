@@ -62,7 +62,7 @@ const Projects = () => {
                                 Live Demo
                             </a>
                             <a 
-                                href="https://github.com/Vikneswari123/QuickCart" 
+                                href="https://github.com/Vikneswar-i123/QuickCart" 
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-sm border border-cyan-400 text-cyan-400 px-4 py-2 rounded-full font-semibold hover:bg-cyan-400 hover:text-black transition-all"
@@ -114,7 +114,7 @@ const Projects = () => {
                                 Live Demo
                             </a>
                             <a 
-                                href="https://github.com/Vikneswari-123/EMSMERN" 
+                                href="https://github.com/Vikneswari-123/EMS-MERN" 
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-sm border border-cyan-400 text-cyan-400 px-4 py-2 rounded-full font-semibold hover:bg-cyan-400 hover:text-black transition-all"
