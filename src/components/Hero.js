@@ -13,10 +13,10 @@ const Hero = () => {
             <h1 className="text-6xl">Hi, <br/> <span className="bg-accent">I'm Vikneswari</span>
             <p className="text-2xl">Welcome to my portfolio! <br/>I'm a {config.subtitle}</p></h1>
             <div className="flex gap-5 text-2xl py-10">
-                <a href="#">
+                <a href="https://github.com/Vikneswari-123">
                    <ImGithub/>
                 </a>
-                <a href="#">
+                <a href="https://linkedin.com/in/vikneswarim">
                    <ImLinkedin/>
                 </a>
             </div>
